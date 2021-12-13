@@ -20,19 +20,25 @@ Please see the Summary section for a fuller breakdown of the number of positions
 2. The short answer is yes. There are more than enough people who should be capable of mentoring incoming hires.
    - The longer answer is that with the updated breakdown, the department with the smallest number of potential retirees is the Finance department with just over 12,700 employees reaching retirement age. Human Resources is the second smallest, and they have around 300 more employees reaching the same milestones. Development has the largest, accounting for just under 26% of the total employees reaching retirement age.
 
+<p align="center">
+   <img src="https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Breakdown_by_Department_52_55.png" width="700" height="500">
+</p>
+<p align="center">
+<img src="https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Breakdown_by_Department_46_64.png" width="700" height="500">
+</p>
 
-![Retirement Breakdown by Department (1952-1955)](https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Breakdown_by_Department_52_55.png)
-
-![Retirement Breakdown by Department (1946-1964)](https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Breakdown_by_Department_46_64.png)
-
-![Staff Positions (1952-1955 range)](https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Staff_Openings_1952_1955.png)
-
-![Staff Positions (1946-1964 range)](https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Staff_Openings_1946_1964.png)
+<p align="center">
+   <img src="https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Staff_Openings_1952_1955.png" width="520" height="380">
+   <img src="https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/Staff_Openings_1946_1964.png" width="520" height="380">
+</p>
 
 ## **Supplemental Data**
 The biggest stumbling block in this analysis is the definition of baby boomer; a web search gives us a date range, courtesy of Wikipedia, which states that the "baby boomer" generation is generally dated between 1946 and 1964, which makes sense as most conventional definitions of 'generation' are divided into roughly 20 year segments.  Now, we calculate out the ages. Assuming this analysis will affect the next fiscal year (2022), we can find the range of ages to expect from the 'boomer' generation:  employees between the ages of 58 and 76 should be on their way to retirement in the next couple of years. However, according to the Social Security Administration, the Normal Retirement Age of anyone born in 1960 and older is 67. This means within the next ten years, there's a high likelihood that anyone born prior to 1964 will retire by 2030 - which is eight more years than we accounted for in our previous query. In order to plan further ahead, we can make a secondary query, expanding the date range to include any employees born in or before 1964, and after 1946. This expands the retirement list dramatically, going from roughly 90,000 employees hitting retirement age (turning 67 to 70 in the coming year) to over 220,000 who were born before or in 1964; this breaks down to around 27.5 thousand retiring employees per year!
-![Extended Retirement Query](https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/D03_expanded_retirement_query01.png)
+<p align="center">
+   <img src="https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/D03_expanded_retirement_query01.png">
+</p>
 
 A good secondary query to build after this is the breakdown of retirees by department. This will allow us to make a multifaceted plan in order to minimize the number of issues as transfers and training happen; breaking down what each department needs will give us a better idea of how to focus hiring, and what resources are needed to get new employees up to speed.
-![Retirement Breakdown by Department](https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/D03_expanded_retirement_query02.png)
-
+<p align="center">
+   <img src="https://github.com/ltkdobbs/pewlett_hackard_analysis/blob/main/Supplemental_Info/D03_expanded_retirement_query02.png">
+</p>
